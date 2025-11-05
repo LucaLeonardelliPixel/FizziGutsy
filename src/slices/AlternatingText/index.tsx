@@ -45,10 +45,10 @@ const AlternatingText = ({ slice }: AlternatingTextProps): JSX.Element => {
                   "rounded-lg p-4 backdrop-blur-lg max-md:bg-white/30",
                 )}
               >
-                <h2 className="text-balance text-6xl font-bold">
+                <h2 className="text-balance text-8xl font-bold">
                   <PrismicText field={item.heading} />
                 </h2>
-                <div className="mt-4 text-xl">
+                <div className="mt-4 text-2xl">
                   <PrismicRichText field={item.body} />
                 </div>
               </div>
